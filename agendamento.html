@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agendamento — Clínica Odontolight | Reserve sua avaliação em 1 minuto</title>
+<meta name="description" content="Agende sua avaliação na Clínica Odontolight, Peixinhos, Olinda/PE. Escolha o serviço e o melhor dia — confirmação rápida, sem burocracia.">
+<meta property="og:title" content="Agendamento — Clínica Odontolight">
+<meta property="og:description" content="Reserve sua avaliação em 1 minuto.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%230878B86'/><path d='M14 26 Q32 46 50 26' stroke='white' stroke-width='6' fill='none' stroke-linecap='round'/></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="microstrip" role="note"><div class="wrap"><span>CNPJ <b>52.063.339/0001-30</b> · Ativa — <b>Olinda/PE</b></span></div></div>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Clínica Odontolight — início">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#087B86"/><path d="M10 17 Q20 30 30 17" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+      <span class="brand-name"><span data-clinica="name">Clínica Odontolight</span><small>Odontologia · Olinda</small></span>
+    </a>
+    <nav class="main" id="navMain" aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="agendamento.html" aria-current="page">Agendamento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-sm" href="agendamento.html">Agendar avaliação</a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMain">☰</button>
+  </div>
+</header>
+
+<main id="main">
+  <section aria-labelledby="book-h" style="padding-bottom:40px">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="eyebrow">Agendamento</p>
+        <h1 id="book-h" style="font-size:clamp(36px,5.4vw,64px)">Sua avaliação em<br><em class="accent-word">1 minuto.</em></h1>
+        <p class="lede">Preencha, envie e receba a confirmação. Sem ligações em horário comercial, sem espera.</p>
+      </div>
+
+      <div class="steps" style="margin-bottom:44px" aria-label="Como funciona o agendamento">
+        <div class="step rv"><span class="n">1</span><h3>Você escolhe</h3><p>Serviço desejado e o melhor dia para você.</p></div>
+        <div class="step rv"><span class="n">2</span><h3>A clínica confirma</h3><p>Retornamos com o horário fechado — rápido e direto.</p></div>
+        <div class="step rv"><span class="n">3</span><h3>Você comparece</h3><p>Av. Pres. Kennedy 3528 Sl 01, Peixinhos. Chegue com calma.</p></div>
+      </div>
+
+      <div class="form-card rv" style="max-width:720px;margin-inline:auto">
+        <span class="demo-flag">Página demonstrativa</span>
+        <h2 style="font-size:26px;margin-bottom:8px">Pedido de agendamento</h2>
+        <p style="color:var(--muted);font-size:15.5px;margin-bottom:26px">Demonstração — nenhum dado é enviado ou armazenado. O agendamento real será confirmado pelo WhatsApp da clínica.</p>
+        <form data-demo-form novalidate>
+          <div class="field">
+            <label for="f-nome">Seu nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" required placeholder="Como podemos te chamar?">
+          </div>
+          <div class="field">
+            <label for="f-wa">Seu WhatsApp</label>
+            <input id="f-wa" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(81) 99999-9999">
+            <p class="hint">Usado apenas para confirmar seu horário.</p>
+          </div>
+          <div class="field">
+            <label for="f-svc">O que você precisa?</label>
+            <select id="f-svc" name="servico" required>
+              <option value="" disabled selected>Escolha uma opção</option>
+              <option>Avaliação geral / check-up</option>
+              <option>Limpeza</option>
+              <option>Dor de dente / urgência</option>
+              <option>Clareamento</option>
+              <option>Aparelho ortodôntico</option>
+              <option>Outro assunto</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-data">Dia preferido</label>
+            <input id="f-data" name="data" type="date" required>
+          </div>
+          <div class="field">
+            <label for="f-msg">Alguma observação? <span style="font-weight:400;color:var(--muted)">(opcional)</span></label>
+            <textarea id="f-msg" name="mensagem" placeholder="Ex.: sinto dor ao mastigar do lado direito"></textarea>
+          </div>
+          <label class="consent">
+            <input type="checkbox" required>
+            <span>Concordo em ser contatado(a) pela clínica sobre meu agendamento. Meus dados não serão usados para nenhum outro fim.</span>
+          </label>
+          <button class="btn" type="submit" style="width:100%">Enviar pedido de agendamento</button>
+        </form>
+        <div class="form-ok" hidden>
+          <div class="ring">
+            <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><path d="M12 21l8 8 8-16" stroke="#087B86" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2 style="font-size:26px;margin-bottom:10px">Pedido recebido, <span data-nome>visitante</span>!</h2>
+          <p style="max-width:44ch;margin:0 auto 8px">Na versão real, a clínica confirmaria seu horário pelo WhatsApp em minutos.</p>
+          <p style="font-size:14px;color:var(--muted)">Demonstração — nada foi enviado. <a href="index.html">Voltar ao início</a></p>
+        </div>
+      </div>
+
+      <p class="rv" style="text-align:center;margin-top:28px;color:var(--muted);font-size:15px">Prefere e-mail? Escreva para <a href="mailto:lanolimacia@gmail.com">lanolimacia@gmail.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="concept-note rv"><b>Nota de conceito:</b> site-demonstração criado pela <b>Tiyan Digital</b> (trabalho real: <a href="https://bluedhaka.com" target="_blank" rel="noopener">bluedhaka.com</a>). O formulário acima é simulado — nenhum dado sai do navegador.</div>
+    <div class="foot-grid">
+      <div><h4><span data-clinica="name">Clínica Odontolight</span></h4>
+        <ul><li>Av. Pres. Kennedy 3528 Sl 01</li><li>Peixinhos — Olinda/PE · CEP 53260-640</li><li>CNPJ 52.063.339/0001-30</li><li><a href="mailto:lanolimacia@gmail.com">lanolimacia@gmail.com</a></li></ul></div>
+      <div><h4>Navegação</h4>
+        <ul><li><a href="index.html">Início</a></li><li><a href="servicos.html">Serviços</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="agendamento.html">Agendamento</a></li><li><a href="auditoria-seo.html">Auditoria SEO</a></li></ul></div>
+      <div><h4>Legal</h4>
+        <ul><li><a href="privacidade.html">Política de Privacidade</a></li><li><a href="termos.html">Termos de Uso</a></li><li><a href="contato.html">Contato</a></li></ul></div>
+    </div>
+    <div class="foot-base"><span>© <span data-year>2026</span> <span data-clinica="name">Clínica Odontolight</span> — demonstração de conceito.</span><span>Feito com calma em Olinda/PE</span></div>
+  </div>
+</footer>
+<a class="sticky-cta" href="agendamento.html">Agendar avaliação</a>
+<script src="js/config.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
